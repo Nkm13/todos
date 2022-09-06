@@ -1,0 +1,117 @@
+.active::after
+{
+    content: '';
+    width: 90%;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    clear: both;
+    transform: translateX(-50%);
+}
+a
+{
+    position: relative;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.active
+{
+clear: both;
+font-weight : bolder;
+}
+
+.header
+{
+    text-align: center;
+    font-family :Arial, Helvetica, sans-serif
+}
+
+label 
+{
+    font-weight : bolder;
+    margin-bottom: 8px;
+}
+#apiKey,#sender_id,#nom,#msg
+{
+    margin-bottom: 8px;
+}
+h4 
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.card-title
+{
+    font-weight : bolder;
+    opacity: 70%;
+}
+
+@media (min-width: 1200px)
+
+{.containers, .container-lg, .container-md, .container-sm, .container-xl 
+{
+  max-width: 100%;
+}}
+
+body {
+    background-color: rgba(242, 255, 249, 0.685);
+}
+
+h2
+{
+    float: right;
+    margin-top: 50px;
+    text-align: end;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.card
+{
+    box-shadow:  0 1px 1px 0 rgba(0,0,0,.12);
+    border: none;
+}
+#table_id
+{
+    box-shadow:  0 1px 1px 0 rgba(0,0,0,.12);
+    border-radius: 40px;
+}
+ .App
+{
+    margin-top : 100px;
+    text-align: center;
+} 
+
+.notFound 
+{
+    margin-top : 250px;
+    text-align: center;
+}
+.texte
+{
+    font-weight: bolder;
+}
+
+.navs
+{
+    float: right;
+    font-weight: 550;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    margin-top: 12px; 
+    padding: 10px; 
+    /* height: 40px; */
+    text-transform: uppercase;
+}
+
+.top-50 {
+  top: 100% !important;
+  margin-right: 10px;
+}
